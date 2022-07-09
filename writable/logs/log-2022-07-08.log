@@ -1,0 +1,42 @@
+CRITICAL - 2022-07-08 03:00:55 --> Invalid file: layout\header.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout\\header.php')
+ 2 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('layout\\header', null, true)
+ 3 APPPATH\Views\layouts\default.php(43): CodeIgniter\View\View->include('layout\\header')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layouts\\default.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts\\default', [], true)
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('index', [], true)
+ 8 APPPATH\Controllers\Home.php(22): view('index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-08 23:32:28 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xamp\htdocs\newsproject\app\Controllers\admin.php on line 11
+in SYSTEMPATH\Common.php on line 1121.
+ 1 APPPATH\Controllers\admin.php(11): view('admin/', 'index')
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\admin->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-08 23:33:04 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xamp\htdocs\newsproject\app\Controllers\admin.php on line 11
+in SYSTEMPATH\Common.php on line 1121.
+ 1 APPPATH\Controllers\admin.php(11): view('admin/', 'index')
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\admin->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-08 23:38:01 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xamp\htdocs\newsproject\app\Controllers\Admin.php on line 11
+in SYSTEMPATH\Common.php on line 1121.
+ 1 APPPATH\Controllers\Admin.php(11): view('admin/', 'index')
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-08 23:41:23 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xamp\htdocs\newsproject\app\Controllers\Admin.php on line 9
+in SYSTEMPATH\Common.php on line 1121.
+ 1 APPPATH\Controllers\Admin.php(9): view('admin/', 'index')
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
