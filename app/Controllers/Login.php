@@ -1,7 +1,7 @@
 <?php
 namespace App\Controllers;
 use CodeIgniter\Controller;
-class Register extends Controller
+class login extends Controller
 {
     public function login()
     {
@@ -28,13 +28,3 @@ class Register extends Controller
 
 
 
-<?php
-namespace App\Controllers;
-class Admin extends BaseController
-{
-public function pages_login()
-    {
-        return view('pages/admin/'."pages_login");
-    }   
-
-}

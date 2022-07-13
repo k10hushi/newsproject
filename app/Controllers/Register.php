@@ -7,10 +7,11 @@ class Register extends Controller
 {
 public function index()
 {
-    return view('index');
+    return view('admin/index');
 }    
 public function register()
 {
+    die();
 if (! $this->validate([
     'username' => 'required',
     'password' => 'required|min_length[10]',
@@ -30,7 +31,7 @@ if (! $this->validate([
         var_dump($data);
     }
 
-    return redirect()->to('admin/pages_login');
+    return redirect()->to('admin/pages-login');
 
 
 
