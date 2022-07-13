@@ -50,7 +50,7 @@ $routes->get('/admin/pages-login', 'Admin::pages_login');
 $routes->get('/admin/pages-register', 'Admin::pages_register');
 $routes->get('/admin/users-profile', 'Admin::users_profile');
 $routes->get('/admin/pages-contact', 'Admin::pages_contact');
-$routes->get('/admin/pages-register', 'Register::index');
+$routes->get('/admin/pages-registerindex', 'Register::index');
 $routes->post('admin/pages-register', 'Register::register');
 
 
