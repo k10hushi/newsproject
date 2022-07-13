@@ -1,0 +1,243 @@
+CRITICAL - 2022-07-12 02:51:38 --> Class "App\Controllers\RegisterModel" not found
+in APPPATH\Controllers\Admin.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 02:52:43 --> Class "App\Models\RegisterModel" not found
+in APPPATH\Controllers\Admin.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 02:54:43 --> Class "App\Models\RegisterModel" not found
+in APPPATH\Controllers\Admin.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 02:55:29 --> Class "App\Models\RegisterModel" not found
+in APPPATH\Controllers\Admin.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 03:04:35 --> syntax error, unexpected variable "$sql", expecting "function" or "const"
+in APPPATH\Controllers\Register.php on line 13.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Register.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Register')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Register')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Register', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 03:17:19 --> syntax error, unexpected identifier "index", expecting variable
+in APPPATH\Controllers\Register.php on line 8.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Register.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Register')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Register')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Register', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 03:17:57 --> syntax error, unexpected single-quoted string "username", expecting "]"
+in APPPATH\Controllers\Register.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Register.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Register')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Register')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Register', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 03:20:40 --> syntax error, unexpected single-quoted string "username", expecting "]"
+in APPPATH\Controllers\Register.php on line 13.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Register.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Register')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Register')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Register', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 03:21:23 --> Unclosed '{' on line 7
+in APPPATH\Controllers\Register.php on line 32.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Register.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Register')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Register')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Register', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 03:22:45 --> Unclosed '{' on line 7
+in APPPATH\Controllers\Register.php on line 33.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Register.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Register')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Register')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Register', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 03:23:06 --> Class "codeIgniter\Controller" not found
+in APPPATH\Controllers\Register.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(284): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Register.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Register')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Register')
+ 5 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Register', true)
+ 6 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 03:26:10 --> Cannot declare class App\Controllers\RegisterModel because the name is already in use
+in APPPATH\Controllers\Register.php on line 6.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-12 03:26:55 --> Class "codeIgniter\Controller" not found
+in APPPATH\Controllers\Register.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(284): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Register.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Register')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Register')
+ 5 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Register', true)
+ 6 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 03:27:48 --> Class "App\Controllers\Controller" not found
+in APPPATH\Controllers\Register.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(284): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Register.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Register')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Register')
+ 5 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Register', true)
+ 6 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 03:30:10 --> Class "App\Controllers\Controller" not found
+in APPPATH\Controllers\Register.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(284): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Register.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Register')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Register')
+ 5 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Register', true)
+ 6 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 03:31:07 --> Class "App\Controllers\Controller" not found
+in APPPATH\Controllers\Register.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(284): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Register.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Register')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Register')
+ 5 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Register', true)
+ 6 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 03:32:43 --> Class "App\Controllers\Controller" not found
+in APPPATH\Controllers\Register.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(284): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Register.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Register')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Register')
+ 5 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Register', true)
+ 6 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 03:34:43 --> Allowed fields must be specified for model: App\Models\RegisterModel
+in SYSTEMPATH\BaseModel.php on line 1138.
+ 1 SYSTEMPATH\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\RegisterModel')
+ 2 SYSTEMPATH\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\Register.php(17): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Register->register()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 04:20:16 --> Undefined variable $validation
+in APPPATH\Views\pages\admin\pages_register.php on line 66.
+ 1 APPPATH\Views\pages\admin\pages_register.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'APPPATH\\Views\\pages\\admin\\pages_register.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\admin\\pages_register.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/admin/pages_register', [], true)
+ 5 APPPATH\Controllers\Admin.php(22): view('pages/admin/pages_register')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->pages_register()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 04:20:20 --> Undefined variable $validation
+in APPPATH\Views\pages\admin\pages_register.php on line 66.
+ 1 APPPATH\Views\pages\admin\pages_register.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'APPPATH\\Views\\pages\\admin\\pages_register.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\admin\\pages_register.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/admin/pages_register', [], true)
+ 5 APPPATH\Controllers\Admin.php(22): view('pages/admin/pages_register')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->pages_register()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 04:35:39 --> Undefined variable $validation
+in APPPATH\Views\pages\admin\pages_register.php on line 66.
+ 1 APPPATH\Views\pages\admin\pages_register.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'APPPATH\\Views\\pages\\admin\\pages_register.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\admin\\pages_register.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/admin/pages_register', [], true)
+ 5 APPPATH\Controllers\Admin.php(22): view('pages/admin/pages_register')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->pages_register()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 04:50:29 --> syntax error, unexpected token "=>"
+in APPPATH\Controllers\Register.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Register.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Register')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Register')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Register', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 05:38:21 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\Register.php on line 33.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Register.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Register')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Register')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Register', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 05:50:32 --> Invalid file: pages/admin/register.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/admin/register.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/admin/register', [], true)
+ 3 APPPATH\Controllers\Register.php(20): view('pages/admin/register', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Register->register()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 05:51:36 --> Invalid file: pages/admin/ pages_register.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/admin/ pages_register.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/admin/ pages_register', [], true)
+ 3 APPPATH\Controllers\Register.php(20): view('pages/admin/ pages_register', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Register->register()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 05:52:56 --> Invalid file: pages/admin/ pages_register.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/admin/ pages_register.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/admin/ pages_register', [], true)
+ 3 APPPATH\Controllers\Register.php(20): view('pages/admin/ pages_register', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Register->register()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 05:54:14 --> Invalid file: pages/admin/ pages_register.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/admin/ pages_register.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/admin/ pages_register', [], true)
+ 3 APPPATH\Controllers\Register.php(20): view('pages/admin/ pages_register', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Register->register()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 22:46:14 --> syntax error, unexpected token "**", expecting identifier or variable or "{" or "$"
+in APPPATH\Config\Routes.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

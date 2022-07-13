@@ -16,4 +16,5 @@ class CommentModel extends Model
    // protected $allowedFields = ['number'];
 
 
+
 }

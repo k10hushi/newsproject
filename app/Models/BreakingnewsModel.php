@@ -13,7 +13,7 @@ class BreakingnewsModel extends Model
 
     protected $returnType     = 'array';
 
-   // protected $allowedFields = ['highlights'date'];
+   // protected $allowedFields = ['highlights,'date'];
 
 
 }

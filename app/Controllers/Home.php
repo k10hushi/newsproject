@@ -18,7 +18,7 @@ class Home extends BaseController
         $data2 = $name2->findAll();
         $name3 = new BreakingnewsModel;
         $data3 = $name3->findAll();
-
+        
         return view('index',['arr'=>$data,'arr1'=>$data1,'arr2'=>$data2,'arr3'=>$data3]);
     }
     public function about()
