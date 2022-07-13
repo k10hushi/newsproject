@@ -19,29 +19,29 @@ class Home extends BaseController
         $name3 = new BreakingnewsModel;
         $data3 = $name3->findAll();
         
-        return view('index',['arr'=>$data,'arr1'=>$data1,'arr2'=>$data2,'arr3'=>$data3]);
+        return view('web/pages/'."index");
     }
     public function about()
     {
-        return view('pages/web/'."about");
+        return view('web/pages/'."about");
     }
 
     public function category()
     {
-        return view('pages/web/'."category");
+        return view('web/pages/'."category");
     }
     public function contact()
     {
-        return view('pages/web/'."contact");
+        return view('web/pages/'."contact");
     }
 
     public function search_result()
     {
-        return view('pages/web/'."search_result");
+        return view('web/pages/'."search_result");
     }
     public function single_post()
     {
-        return view('pages/web/'."single_post");
+        return view('web/pages/'."single_post");
     }
 
 }

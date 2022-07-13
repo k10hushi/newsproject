@@ -37,21 +37,24 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 
 $routes->get('/', 'Home::index');
-$routes->get('/about', 'Home::about');
-$routes->get('/category', 'Home::category');
-$routes->get('/contact', 'Home::contact');
-$routes->get('/search-result', 'Home::search_result');
-$routes->get('/single-post', 'Home::single_post');
+$routes->get('/web/pages/about', 'Home::about');
+$routes->get('/web/pages/category', 'Home::category');
+$routes->get('/web/pages/contact', 'Home::contact');
+$routes->get('/web/pages/search-result', 'Home::search_result');
+$routes->get('/web/pages/single-post', 'Home::single_post');
 
 // routes of Admin start here
 
 $routes->get('/admin', 'Admin::index');
-$routes->get('/admin/pages-login', 'Admin::pages_login');
-$routes->get('/admin/pages-register', 'Admin::pages_register');
-$routes->get('/admin/users-profile', 'Admin::users_profile');
-$routes->get('/admin/pages-contact', 'Admin::pages_contact');
-$routes->get('/admin/pages-registerindex', 'Register::index');
-//$routes->post('admin/pages-register', 'Register::register');
+$routes->get('admin/pages/index','Admin::index');
+$routes->get('/admin/pages/pages-login', 'Admin::pages_login');
+$routes->get('/admin/pages/pages-register', 'Admin::pages_register');
+$routes->get('/admin/pages/users-profile', 'Admin::users_profile');
+$routes->get('/admin/pages/pages-contact', 'Admin::pages_contact');
+//$routes->get('/admin/pages/pages-registerindex', 'Register::index');
+$routes->post('/admin/pages/pages-register', 'Register::register');
+
+$routes->post('/admin/pages/pages-login','Login::login');
 
 
 
@@ -61,6 +64,8 @@ $routes->get('/admin/pages-registerindex', 'Register::index');
 
 
 // routes of admin end here
+
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing

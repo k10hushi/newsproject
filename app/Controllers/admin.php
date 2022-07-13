@@ -11,22 +11,22 @@ public function index()
 {
     $name = new RegisterModel;
         $data = $name->findAll();
-    return view('admin/'."index",['arr'=>$data]);
+    return view('admin/pages/'."index");
 }
 public function pages_login()
 {
-    return view('pages/admin/'."pages_login");
+    return view('admin/pages/'."pages_login");
 }
 public function pages_register()
 {
-    return view('pages/admin/'."pages_register");
+    return view('admin/pages/'."pages_register");
 }
 public function users_profile()
 {
-    return view('pages/admin/'."users_profile");
+    return view('admin/pages/'."users_profile");
 }
 public function pages_contact()
 {
-    return view('pages/admin/'."pages_contact");
+    return view('admin/pages/'."pages_contact");
 }
 }
