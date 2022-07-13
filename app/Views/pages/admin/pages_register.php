@@ -64,7 +64,8 @@
                 <p class="text-center small">Enter your personal details to create account</p>
                 </div>
                 <?php if(isset ($validation)) { echo $validation->listErrors();} ?>
-                <form class="row g-3 needs-validation" novalidate action="admin/pages_register" method="post" >
+                
+                <form class="row g-3 needs-validation" novalidate action="admin" method="post" >
                 <div class="col-12">
                     <label for="yourName" class="form-label">Your Name</label>
                     <input type="text" name="name" class="form-control" id="yourName" required>

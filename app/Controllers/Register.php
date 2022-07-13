@@ -18,7 +18,7 @@ if (! $this->validate([
     'name' => 'required',
     'email' => 'required|valid_email',
 ])) {
-        return view('pages/admin/pages_register',[ 'validation' => $this->validator,]);
+        return view('pages/admin/pages-register',[ 'validation' => $this->validator,]);
     }   
     else 
     {
