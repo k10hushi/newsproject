@@ -1,8 +1,29 @@
+<?php
+class check
+{
+    function check_login()
+    {
+        session_start();
+        if (!isset($_SESSION['login']) || $_SESSION['login'] != true) {
+            echo "<h1>You are not logged in.";
+            echo "You will be redirected in 3 seconds";
+            echo "<script>
+                var timer = setTimeout(function() {
+                window.location='login'}, 3000);
+                </script></h1>";
+            exit;
+
+        }
+    }
+}
+$obj = new check;
+$obj->check_login();
+?>
 <!-- ======= Header ======= -->
 <header id="header" class="header fixed-top d-flex align-items-center">
 
 <div class="d-flex align-items-center justify-content-between">
-    <a href="index.html" class="logo d-flex align-items-center">
+    <a href="index" class="logo d-flex align-items-center">
     <img src="assets/img/logo.png" alt="">
     <span class="d-none d-lg-block">NiceAdmin</span>
     </a>
@@ -170,12 +191,12 @@
 
         <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
         <img src="assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
-        <span class="d-none d-md-block dropdown-toggle ps-2">K. Anderson</span>
+        <span class="d-none d-md-block dropdown-toggle ps-2"><?php echo $_SESSION['username']; ?></span>
         </a><!-- End Profile Iamge Icon -->
 
         <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
         <li class="dropdown-header">
-            <h6>Kevin Anderson</h6>
+            <h6><?php echo $_SESSION['username']; ?></h6>
             <span>Web Designer</span>
         </li>
         <li>
@@ -183,7 +204,7 @@
         </li>
 
         <li>
-            <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+            <a class="dropdown-item d-flex align-items-center" href="users-profile">
             <i class="bi bi-person"></i>
             <span>My Profile</span>
             </a>
@@ -193,7 +214,7 @@
         </li>
 
         <li>
-            <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+            <a class="dropdown-item d-flex align-items-center" href="users-profile">
             <i class="bi bi-gear"></i>
             <span>Account Settings</span>
             </a>
@@ -203,7 +224,7 @@
         </li>
 
         <li>
-            <a class="dropdown-item d-flex align-items-center" href="pages-faq.html">
+            <a class="dropdown-item d-flex align-items-center" href="pages-faq">
             <i class="bi bi-question-circle"></i>
             <span>Need Help?</span>
             </a>

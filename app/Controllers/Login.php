@@ -2,46 +2,57 @@
 
 namespace App\Controllers;
 
-// use CodeIgniter\Controller;
+
+use Config\App;
 
 class Login extends BaseController
 {
     public function login()
     {
-        // $validation->setRule('username', 'Username', 'required|min_length[3]');
-        // $validation->setRule('password', 'Password', ['required', 'min_length[8]', 'alpha_numeric_punct']);
-        helper(['login', 'url']);
-        if (!$this->validate([
-            'username' => ['label' => 'username', 'rules' => 'required'],
-            'password' => ['label' => 'Password', 'rules' => 'required|min_length[5]'],
-        ])) {
-            return view('admin/pages/'."pages_login", [
-                'validation' => $this->validator,
-            ]);
-        }
-        // return redirect("register");
-        if ($_SERVER["REQUEST_METHOD"] == "POST") {
-            $db = \Config\Database::connect();
-            $username = $_POST["username"];
-            $pass = $_POST["password"];
+        helper(['form']);
+        $username = $this->request->getVar("username");
+        $password = $this->request->getVar("password");
+        // if ($username == 'Shinigami') {
+        //     return redirect('admin');
+        // }
+        $data = [];
+        if ($this->request->getMethod() == 'post') {
+            $rules = [
+                'username' => 'required',
+                'password' => 'required|min_length[10]',
+            ];
 
-            $sql = "SELECT * FROM register WHERE username=? AND password=?";
-            $result = $db->query($sql, [$username, $pass]);
-            if ($result) {
-                session_start();
-                $_SESSION['login'] = true;
-                $_SESSION['username'] = $username;
-                return redirect('admin/pages'."index");
-            }
-            else{
-                echo "User not registered, or invalid details.";
-                return redirect()->back();
+            if (!$this->validate($rules)) {
+                $data['validation'] = $this->validator;
+                return view('admin/pages/login', $data);
+            } else {
+                if ($_SERVER["REQUEST_METHOD"] == "POST") {
+                    // $db = \Config\Database::connect();
+                    $registerModel = new \App\Models\RegisterModel();
+                    $currentPass = md5($password);
+                    $users = $registerModel->where('username', $username)->first();
+                    if(!isset($users)){
+                        die('Enter Valid Username');
+                    }else{
+                        $oldPass = $users['password'];
+                        if ($oldPass == $currentPass) {
+                            session_start();
+                            $_SESSION['login'] = true;
+                            $_SESSION['username'] = $username;
+                            $_SESSION['id'] = $users['id'];
+                            return redirect('index');
+                            // header("location: index.php");
+                        } else {
+                            
+                            return redirect('login');
+                        }
+                    }
+                    
+                    
+                }
+                
             }
         }
     }
 }
-
-
-
-
-
+   

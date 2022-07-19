@@ -37,24 +37,45 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 
 $routes->get('/', 'Home::index');
-$routes->get('/web/pages/about', 'Home::about');
-$routes->get('/web/pages/category', 'Home::category');
-$routes->get('/web/pages/contact', 'Home::contact');
-$routes->get('/web/pages/search-result', 'Home::search_result');
-$routes->get('/web/pages/single-post', 'Home::single_post');
+$routes->get('/about', 'Home::about');
+$routes->get('/category', 'Home::category');
+$routes->get('/contact', 'Home::contact');
+$routes->get('/search-result', 'Home::search_result');
+$routes->get('/single-post', 'Home::single_post');
 
 // routes of Admin start here
 
 $routes->get('/admin', 'Admin::index');
-$routes->get('admin/pages/index','Admin::index');
-$routes->get('/admin/pages/pages-login', 'Admin::pages_login');
-$routes->get('/admin/pages/pages-register', 'Admin::pages_register');
-$routes->get('/admin/pages/users-profile', 'Admin::users_profile');
-$routes->get('/admin/pages/pages-contact', 'Admin::pages_contact');
+$routes->get('/index','Admin::index');
+$routes->get('/login', 'Admin::login');
+$routes->get('/register', 'Admin::register');
+$routes->get('/users-profile', 'Admin::users_profile');
+$routes->get('/pages-contact', 'Admin::pages_contact');
+$routes->get('/international', 'Admin::international');
+$routes->get('/national', 'Admin::national');
+$routes->get('/sports', 'Admin::sports');
+$routes->get('/politics', 'Admin::politics');
+$routes->get('/entertainment', 'Admin::entertainment');
+$routes->get('/forms', 'Admin::forms');
 //$routes->get('/admin/pages/pages-registerindex', 'Register::index');
-$routes->post('/admin/pages/pages-register', 'Register::register');
 
-$routes->post('/admin/pages/pages-login','Login::login');
+
+$routes->post('/login', 'Login::login');
+$routes->post('/register', 'Register::register');
+$routes->post('/forms', 'Forms::forms');
+//$routes->post('/upload', 'Forms::upload');
+
+
+
+
+
+// $routes->post('/pages_login', 'a::register');
+
+
+//$routes->get('/admin/pages/pages-login','Login::login');
+//$routes->post('/index','Login::loginn');
+
+
 
 
 

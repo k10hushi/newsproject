@@ -18,7 +18,7 @@ if (! $this->validate([
     'name' => 'required',
     'email' => 'required|valid_email',
 ])) {
-        return view('admin/pages/pages_register',[ 'validation' => $this->validator,]);
+        return view('admin/pages/register',[ 'validation' => $this->validator,]);
     }   
     else 
     {
@@ -31,8 +31,8 @@ if (! $this->validate([
         //var_dump($data);
     }
 
-    return redirect()->to('admin/pages/'."pages-login");
-
+     return redirect()->to('login');
+   // return view('admin/pages/login');
 
 
 }

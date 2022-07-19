@@ -2,7 +2,7 @@
 <header id="header" class="header d-flex align-items-center fixed-top">
 <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-    <a href="index.html" class="logo d-flex align-items-center">
+    <a href="index" class="logo d-flex align-items-center">
     <!-- Uncomment the line below if you also wish to use an image logo -->
     <!-- <img src="assets/img/logo.png" alt=""> -->
     <h1>ZenBlog</h1>
@@ -10,7 +10,7 @@
 
     <nav id="navbar" class="navbar">
     <ul>
-        <li><a href="index.html">Blog</a></li>
+        <li><a href="index">Blog</a></li>
         <li><a href="single-post">Single Post</a></li>
         <li class="dropdown"><a href="category"><span>Categories</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
         <ul>
@@ -46,7 +46,7 @@
 
     <!-- ======= Search Form ======= -->
     <div class="search-form-wrap js-search-form-wrap">
-        <form action="search-result.html" class="search-form">
+        <form action="search-result" class="search-form">
         <span class="icon bi-search"></span>
         <input type="text" placeholder="Search" class="form-control">
         <button class="btn js-search-close"><span class="bi-x"></span></button>

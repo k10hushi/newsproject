@@ -10,8 +10,8 @@
 <meta content="" name="keywords">
 
 <!-- Favicons -->
-<link href="assets/img/favicon.png" rel="icon">
-<link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+<link href="public/assets/img/favicon.png" rel="icon">
+<link href="public/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
 <!-- Google Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,15 +19,15 @@
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Inter:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
 <!-- Vendor CSS Files -->
-<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-<link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-<link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-<link href="assets/vendor/aos/aos.css" rel="stylesheet">
+<link href="public/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="public/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+<link href="public/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+<link href="public/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+<link href="public/assets/vendor/aos/aos.css" rel="stylesheet">
 
 <!-- Template Main CSS Files -->
-<link href="assets/css/variables.css" rel="stylesheet">
-<link href="assets/css/main.css" rel="stylesheet">
+<link href="public/assets/css/variables.css" rel="stylesheet">
+<link href="public/assets/css/main.css" rel="stylesheet">
 
 <!-- =======================================================
 * Template Name: ZenBlog - v1.0.0
@@ -57,7 +57,7 @@
             <p><span class="firstcharacter">L</span>orem ipsum dolor sit, amet consectetur adipisicing elit. Ratione officia sed, suscipit distinctio, numquam omnis quo fuga ipsam quis inventore voluptatum recusandae culpa, unde doloribus saepe labore alias voluptate expedita? Dicta delectus beatae explicabo odio voluptatibus quas, saepe qui aperiam autem obcaecati, illo et! Incidunt voluptas culpa neque repellat sint, accusamus beatae, cumque autem tempore quisquam quam eligendi harum debitis.</p>
 
             <figure class="my-4">
-            <img src="assets/img/post-landscape-1.jpg" alt="" class="img-fluid">
+            <img src="public/assets/img/post-landscape-1.jpg" alt="" class="img-fluid">
             <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, odit? </figcaption>
             </figure>
             <p>Sunt reprehenderit, hic vel optio odit est dolore, distinctio iure itaque enim pariatur ducimus. Rerum soluta, perspiciatis voluptatum cupiditate praesentium repellendus quas expedita exercitationem tempora aliquam quaerat in eligendi adipisci harum non omnis reprehenderit quidem beatae modi. Ea fugiat enim libero, ipsam dicta explicabo nihil, tempore, nulla repellendus eos necessitatibus eligendi corporis cum? Eaque harum, eligendi itaque numquam aliquam soluta.</p>
@@ -66,7 +66,7 @@
             <p>Dolorum, incidunt! Adipisci harum itaque maxime dolores doloremque porro eligendi quis, doloribus vel sit rerum sunt obcaecati nam suscipit nulla vitae alias blanditiis aliquam debitis atque illo modi et placeat. Ratione iure eveniet provident. Culpa laboriosam sed ad quia. Corrupti, earum, perferendis dolore cupiditate sint nihil maiores iusto tempora nobis porro itaque est. Ut laborum culpa assumenda pariatur et perferendis?</p>
             <p>Est soluta veritatis laboriosam, consequuntur temporibus asperiores, fugit id a ullam sed, expedita sequi doloribus fugiat. Odio et necessitatibus enim nam, iste reprehenderit cupiditate omnis ut iure aliquid obcaecati, repellendus nemo provident eveniet tempora minus! Voluptates aut laboriosam, maiores nihil accusantium, a dolorum quaerat tenetur illo eum culpa cum laudantium sunt doloremque modi possimus magni? Perferendis cum repudiandae corrupti porro.</p>
             <figure class="my-4">
-            <img src="assets/img/post-landscape-5.jpg" alt="" class="img-fluid">
+            <img src="public/assets/img/post-landscape-5.jpg" alt="" class="img-fluid">
             <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, odit? </figcaption>
             </figure>
             <p>Quis molestiae, dolorem consequuntur labore perferendis enim accusantium commodi optio, sequi magnam ad consectetur iste omnis! Voluptatibus, quia officia esse necessitatibus magnam tempore reprehenderit quo aspernatur! Assumenda, minus dolorem repellendus corporis corrupti quia temporibus repudiandae in. Sit rem aut, consectetur repudiandae perferendis nemo alias, iure ipsam omnis quam soluta, nobis animi quis aliquam blanditiis at. Dicta nemo vero sequi exercitationem.</p>
@@ -81,7 +81,7 @@
             <div class="comment d-flex mb-4">
             <div class="flex-shrink-0">
                 <div class="avatar avatar-sm rounded-circle">
-                <img class="avatar-img" src="assets/img/person-5.jpg" alt="" class="img-fluid">
+                <img class="avatar-img" src="public/assets/img/person-5.jpg" alt="" class="img-fluid">
                 </div>
             </div>
             <div class="flex-grow-1 ms-2 ms-sm-3">
@@ -99,7 +99,7 @@
                 <div class="reply d-flex mb-4">
                     <div class="flex-shrink-0">
                     <div class="avatar avatar-sm rounded-circle">
-                        <img class="avatar-img" src="assets/img/person-4.jpg" alt="" class="img-fluid">
+                        <img class="avatar-img" src="public/assets/img/person-4.jpg" alt="" class="img-fluid">
                     </div>
                     </div>
                     <div class="flex-grow-1 ms-2 ms-sm-3">
@@ -115,7 +115,7 @@
                 <div class="reply d-flex">
                     <div class="flex-shrink-0">
                     <div class="avatar avatar-sm rounded-circle">
-                        <img class="avatar-img" src="assets/img/person-3.jpg" alt="" class="img-fluid">
+                        <img class="avatar-img" src="public/assets/img/person-3.jpg" alt="" class="img-fluid">
                     </div>
                     </div>
                     <div class="flex-grow-1 ms-2 ms-sm-3">
@@ -134,7 +134,7 @@
             <div class="comment d-flex">
             <div class="flex-shrink-0">
                 <div class="avatar avatar-sm rounded-circle">
-                <img class="avatar-img" src="assets/img/person-2.jpg" alt="" class="img-fluid">
+                <img class="avatar-img" src="public/assets/img/person-2.jpg" alt="" class="img-fluid">
                 </div>
             </div>
             <div class="flex-shrink-1 ms-2 ms-sm-3">
@@ -319,7 +319,7 @@
             <div class="video-post">
             <a href="https://www.youtube.com/watch?v=AiFfDjmd0jU" class="glightbox link-video">
                 <span class="bi-play-fill"></span>
-                <img src="assets/img/post-landscape-5.jpg" alt="" class="img-fluid">
+                <img src="public/assets/img/post-landscape-5.jpg" alt="" class="img-fluid">
             </a>
             </div>
         </div><!-- End Video -->
@@ -327,28 +327,28 @@
         <div class="aside-block">
             <h3 class="aside-title">Categories</h3>
             <ul class="aside-links list-unstyled">
-            <li><a href="category.html"><i class="bi bi-chevron-right"></i> Business</a></li>
-            <li><a href="category.html"><i class="bi bi-chevron-right"></i> Culture</a></li>
-            <li><a href="category.html"><i class="bi bi-chevron-right"></i> Sport</a></li>
-            <li><a href="category.html"><i class="bi bi-chevron-right"></i> Food</a></li>
-            <li><a href="category.html"><i class="bi bi-chevron-right"></i> Politics</a></li>
-            <li><a href="category.html"><i class="bi bi-chevron-right"></i> Celebrity</a></li>
-            <li><a href="category.html"><i class="bi bi-chevron-right"></i> Startups</a></li>
-            <li><a href="category.html"><i class="bi bi-chevron-right"></i> Travel</a></li>
+            <li><a href="category"><i class="bi bi-chevron-right"></i> Business</a></li>
+            <li><a href="category"><i class="bi bi-chevron-right"></i> Culture</a></li>
+            <li><a href="category"><i class="bi bi-chevron-right"></i> Sport</a></li>
+            <li><a href="category"><i class="bi bi-chevron-right"></i> Food</a></li>
+            <li><a href="category"><i class="bi bi-chevron-right"></i> Politics</a></li>
+            <li><a href="category"><i class="bi bi-chevron-right"></i> Celebrity</a></li>
+            <li><a href="category"><i class="bi bi-chevron-right"></i> Startups</a></li>
+            <li><a href="category"><i class="bi bi-chevron-right"></i> Travel</a></li>
             </ul>
         </div><!-- End Categories -->
 
         <div class="aside-block">
             <h3 class="aside-title">Tags</h3>
             <ul class="aside-tags list-unstyled">
-            <li><a href="category.html">Business</a></li>
-            <li><a href="category.html">Culture</a></li>
-            <li><a href="category.html">Sport</a></li>
-            <li><a href="category.html">Food</a></li>
-            <li><a href="category.html">Politics</a></li>
-            <li><a href="category.html">Celebrity</a></li>
-            <li><a href="category.html">Startups</a></li>
-            <li><a href="category.html">Travel</a></li>
+            <li><a href="category">Business</a></li>
+            <li><a href="category">Culture</a></li>
+            <li><a href="category">Sport</a></li>
+            <li><a href="category">Food</a></li>
+            <li><a href="category">Politics</a></li>
+            <li><a href="category">Celebrity</a></li>
+            <li><a href="category">Startups</a></li>
+            <li><a href="category">Travel</a></li>
             </ul>
         </div><!-- End Tags -->
 
@@ -364,14 +364,14 @@
 <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
 <!-- Vendor JS Files -->
-<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-<script src="assets/vendor/aos/aos.js"></script>
-<script src="assets/vendor/php-email-form/validate.js"></script>
+<script src="public/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="public/assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="public/assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="public/assets/vendor/aos/aos.js"></script>
+<script src="public/assets/vendor/php-email-form/validate.js"></script>
 
 <!-- Template Main JS File -->
-<script src="assets/js/main.js"></script>
+<script src="public/assets/js/main.js"></script>
 
 </body>
 

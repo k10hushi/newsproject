@@ -1,0 +1,178 @@
+CRITICAL - 2022-07-14 00:08:01 --> Unclosed '{' on line 9
+in APPPATH\Controllers\Login.php on line 102.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Login.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Login')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Login')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Login', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 00:10:22 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Login.php on line 77.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Login.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Login')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Login')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Login', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 00:18:27 --> Undefined variable $registersModel
+in APPPATH\Controllers\Login.php on line 39.
+ 1 APPPATH\Controllers\Login.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $registersModel', 'APPPATH\\Controllers\\Login.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 00:18:53 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('C:\\xamp\\htdocs\\newsproject')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Login.php(49): redirect('index')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->login()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 00:29:11 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('C:\\xamp\\htdocs\\newsproject')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Login.php(49): redirect('admin/pagesindex')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->loginn()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 00:29:35 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('C:\\xamp\\htdocs\\newsproject')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Login.php(49): redirect('admin/pagesindex')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->loginn()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 00:32:22 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('C:\\xamp\\htdocs\\newsproject')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Login.php(49): redirect('admin/pagesindex')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->loginn()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 00:33:33 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('C:\\xamp\\htdocs\\newsproject')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Login.php(49): redirect('admin/pagesindex')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->loginn()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 00:36:46 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('C:\\xamp\\htdocs\\newsproject')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Login.php(49): redirect('admin/pagesindex')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->loginn()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 00:39:12 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('C:\\xamp\\htdocs\\newsproject')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Login.php(49): redirect('admin/pagesindex')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->loginn()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 00:41:14 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('C:\\xamp\\htdocs\\newsproject')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Login.php(49): redirect('admin/pagesindex')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->loginn()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 04:13:36 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('C:\\xamp\\htdocs\\newsproject')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Login.php(49): redirect('admin/pagesindex')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->loginn()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 04:14:08 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('C:\\xamp\\htdocs\\newsproject')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Login.php(49): redirect('admin/pagesindex')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->loginn()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 04:18:29 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('C:\\xamp\\htdocs\\newsproject')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Login.php(49): redirect('admin/pagesindex')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->loginn()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 22:37:30 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('C:\\xamp\\htdocs\\newsproject')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Login.php(49): redirect('admin/pagesindex')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->loginn()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 22:38:42 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('C:\\xamp\\htdocs\\newsproject')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Login.php(49): redirect('admin/pagesindex')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->loginn()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 22:40:44 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('C:\\xamp\\htdocs\\newsproject')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Login.php(49): redirect('admin/pagesindex')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->loginn()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 22:44:20 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('C:\\xamp\\htdocs\\newsproject')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Login.php(49): redirect('admin/pagesindex')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->loginn()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 22:48:54 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('C:\\xamp\\htdocs\\newsproject')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Login.php(49): redirect('admin/pagesindex')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->loginn()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 22:54:16 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('C:\\xamp\\htdocs\\newsproject')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Login.php(49): redirect('admin/pagesindex')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->loginn()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

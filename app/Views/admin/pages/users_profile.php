@@ -53,7 +53,7 @@
     <h1>Profile</h1>
     <nav>
     <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-item"><a href="index">Home</a></li>
         <li class="breadcrumb-item">Users</li>
         <li class="breadcrumb-item active">Profile</li>
     </ol>
@@ -115,7 +115,7 @@
 
                 <div class="row">
                 <div class="col-lg-3 col-md-4 label ">Full Name</div>
-                <div class="col-lg-9 col-md-8">Kevin Anderson</div>
+                <div class="col-lg-9 col-md-8"><?php echo $_SESSION['username']; ?></div>
                 </div>
 
                 <div class="row">
