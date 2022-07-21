@@ -13,7 +13,7 @@ class FormsModel extends Model
 
     protected $returnType     = 'array';
 
-   protected $allowedFields = ['name','email','posttitle','file','city','Textarea'];
+   protected $allowedFields = ['name','email','posttitle','file','city','Textarea','category'];
 
 
 }

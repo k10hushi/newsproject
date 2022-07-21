@@ -1,0 +1,9 @@
+CRITICAL - 2022-07-20 22:41:10 --> syntax error, unexpected identifier "id", expecting "," or ";"
+in APPPATH\Views\admin\pages\display.php on line 88.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/display', [], true)
+ 3 APPPATH\Controllers\Admin.php(60): view('admin/pages/display')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->display()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

@@ -57,12 +57,16 @@ $routes->get('/sports', 'Admin::sports');
 $routes->get('/politics', 'Admin::politics');
 $routes->get('/entertainment', 'Admin::entertainment');
 $routes->get('/forms', 'Admin::forms');
+$routes->get('/display', 'Admin::display');
+$routes->get('/post', 'Admin::post');
+$routes->get('/showpost', 'Admin::showpost');
 //$routes->get('/admin/pages/pages-registerindex', 'Register::index');
 
 
 $routes->post('/login', 'Login::login');
 $routes->post('/register', 'Register::register');
 $routes->post('/forms', 'Forms::forms');
+$routes->post('/post', 'Post::post');
 //$routes->post('/upload', 'Forms::upload');
 
 

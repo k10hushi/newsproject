@@ -13,7 +13,7 @@ class PostModel extends Model
 
     protected $returnType     = 'array';
 
-   // protected $allowedFields = ['date','title','description','pages','place','time'];
+    protected $allowedFields = ['date','title','description','city','time','file'];
 
 
 }

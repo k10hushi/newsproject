@@ -55,4 +55,16 @@ public function forms()
 {
     return view('admin/pages/'."forms");
 }
+public function display()
+{
+    return view('admin/pages/'."display");
+}
+public function post()
+{
+    return view('admin/pages/'."post");
+}
+public function showpost()
+{
+    return view('admin/pages/'."showpost");
+}
 }

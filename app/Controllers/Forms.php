@@ -57,6 +57,7 @@ public function forms()
             'posttitle' => $this->request->getPost('posttitle'),
             'city' => $this->request->getPost('city'),
             'Textarea' => $this->request->getPost('Textarea'),
+            'category' => $this->request->getPost('category'),
             'file' => $imageName,
         ];
         $product->save($data);

@@ -17,3 +17,329 @@ in APPPATH\Views\admin\pages\forms.php on line 55.
  6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
  7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 03:56:01 --> Undefined array key "fid"
+in APPPATH\Views\admin\pages\forms.php on line 67.
+ 1 APPPATH\Views\admin\pages\forms.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fid"', 'APPPATH\\Views\\admin\\pages\\forms.php', 67)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\forms.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/forms', [], true)
+ 5 APPPATH\Controllers\Admin.php(56): view('admin/pages/forms')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->forms()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 04:16:32 --> Unclosed '{' on line 68
+in APPPATH\Views\admin\pages\forms.php on line 147.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/forms', [], true)
+ 3 APPPATH\Controllers\Admin.php(56): view('admin/pages/forms')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->forms()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 04:16:32 --> Unclosed '{' on line 68
+in APPPATH\Views\admin\pages\forms.php on line 147.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/forms', [], true)
+ 3 APPPATH\Controllers\Admin.php(56): view('admin/pages/forms')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->forms()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 04:17:04 --> Unclosed '{' on line 68
+in APPPATH\Views\admin\pages\forms.php on line 147.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/forms', [], true)
+ 3 APPPATH\Controllers\Admin.php(56): view('admin/pages/forms')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->forms()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 04:22:32 --> Unclosed '{' on line 68
+in APPPATH\Views\admin\pages\forms.php on line 147.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/forms', [], true)
+ 3 APPPATH\Controllers\Admin.php(56): view('admin/pages/forms')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->forms()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 04:22:34 --> Unclosed '{' on line 68
+in APPPATH\Views\admin\pages\forms.php on line 147.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/forms', [], true)
+ 3 APPPATH\Controllers\Admin.php(56): view('admin/pages/forms')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->forms()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 04:26:33 --> Undefined variable $schools
+in APPPATH\Views\admin\pages\forms.php on line 67.
+ 1 APPPATH\Views\admin\pages\forms.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $schools', 'APPPATH\\Views\\admin\\pages\\forms.php', 67)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\forms.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/forms', [], true)
+ 5 APPPATH\Controllers\Admin.php(56): view('admin/pages/forms')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->forms()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 04:27:14 --> Undefined array key "fid"
+in APPPATH\Views\admin\pages\forms.php on line 68.
+ 1 APPPATH\Views\admin\pages\forms.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fid"', 'APPPATH\\Views\\admin\\pages\\forms.php', 68)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\forms.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/forms', [], true)
+ 5 APPPATH\Controllers\Admin.php(56): view('admin/pages/forms')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->forms()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 04:37:41 --> Undefined array key "fid"
+in APPPATH\Views\admin\pages\forms.php on line 68.
+ 1 APPPATH\Views\admin\pages\forms.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fid"', 'APPPATH\\Views\\admin\\pages\\forms.php', 68)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\forms.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/forms', [], true)
+ 5 APPPATH\Controllers\Admin.php(56): view('admin/pages/forms')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->forms()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 04:40:58 --> Undefined array key "fid"
+in APPPATH\Views\admin\pages\forms.php on line 68.
+ 1 APPPATH\Views\admin\pages\forms.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fid"', 'APPPATH\\Views\\admin\\pages\\forms.php', 68)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\forms.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/forms', [], true)
+ 5 APPPATH\Controllers\Admin.php(56): view('admin/pages/forms')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->forms()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 08:22:37 --> Undefined array key "fid"
+in APPPATH\Views\admin\pages\forms.php on line 68.
+ 1 APPPATH\Views\admin\pages\forms.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fid"', 'APPPATH\\Views\\admin\\pages\\forms.php', 68)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\forms.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/forms', [], true)
+ 5 APPPATH\Controllers\Admin.php(56): view('admin/pages/forms')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->forms()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 09:19:22 --> Undefined property: stdClass::$taxtarea
+in APPPATH\Views\admin\pages\display.php on line 83.
+ 1 APPPATH\Views\admin\pages\display.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$taxtarea', 'APPPATH\\Views\\admin\\pages\\display.php', 83)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\display.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/display', [], true)
+ 5 APPPATH\Controllers\Admin.php(60): view('admin/pages/display')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->display()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 09:20:52 --> Undefined property: stdClass::$textarea
+in APPPATH\Views\admin\pages\display.php on line 83.
+ 1 APPPATH\Views\admin\pages\display.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$textarea', 'APPPATH\\Views\\admin\\pages\\display.php', 83)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\display.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/display', [], true)
+ 5 APPPATH\Controllers\Admin.php(60): view('admin/pages/display')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->display()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 21:36:53 --> Class "App\Models\SchoolModel" not found
+in APPPATH\Views\admin\pages\forms.php on line 71.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/forms', [], true)
+ 4 APPPATH\Controllers\Admin.php(56): view('admin/pages/forms')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->forms()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 21:38:15 --> Undefined array key "sid"
+in APPPATH\Views\admin\pages\forms.php on line 77.
+ 1 APPPATH\Views\admin\pages\forms.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sid"', 'APPPATH\\Views\\admin\\pages\\forms.php', 77)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\forms.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/forms', [], true)
+ 5 APPPATH\Controllers\Admin.php(56): view('admin/pages/forms')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->forms()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 21:39:32 --> Undefined array key "category"
+in APPPATH\Views\admin\pages\forms.php on line 77.
+ 1 APPPATH\Views\admin\pages\forms.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category"', 'APPPATH\\Views\\admin\\pages\\forms.php', 77)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\forms.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/forms', [], true)
+ 5 APPPATH\Controllers\Admin.php(56): view('admin/pages/forms')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->forms()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 21:40:51 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Forms.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Forms->forms()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forms))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 21:41:09 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Forms.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Forms->forms()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forms))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 21:42:19 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Forms.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Forms->forms()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forms))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 21:42:27 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Forms.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Forms->forms()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forms))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 21:44:25 --> Undefined array key "category"
+in APPPATH\Views\admin\pages\forms.php on line 78.
+ 1 APPPATH\Views\admin\pages\forms.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category"', 'APPPATH\\Views\\admin\\pages\\forms.php', 78)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\forms.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/forms', [], true)
+ 5 APPPATH\Controllers\Admin.php(56): view('admin/pages/forms')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->forms()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-19 21:46:34 --> Column 'pages' cannot be null
+CRITICAL - 2022-07-19 21:46:34 --> Column 'pages' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `post` (`date`, `title`, `description`, `pages`, `place`, `time`, `file`) VALUES (\'2002-12-01\', \'hello\', \'iugvuiuibuigui\', NULL, NULL, NULL, \'_Khushi sharma yoga day cert..pdf\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `post` (`date`, `title`, `description`, `pages`, `place`, `time`, `file`) VALUES (\'2002-12-01\', \'hello\', \'iugvuiuibuigui\', NULL, NULL, NULL, \'_Khushi sharma yoga day cert..pdf\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `post` (`date`, `title`, `description`, `pages`, `place`, `time`, `file`) VALUES (\'2002-12-01\', \'hello\', \'iugvuiuibuigui\', NULL, NULL, NULL, \'_Khushi sharma yoga day cert..pdf\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `post` (`date`, `title`, `description`, `pages`, `place`, `time`, `file`) VALUES (:date:, :title:, :description:, :pages:, :place:, :time:, :file:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Post.php(25): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Post->post()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-19 21:50:16 --> Column 'pages' cannot be null
+CRITICAL - 2022-07-19 21:50:16 --> Column 'pages' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `post` (`date`, `title`, `description`, `pages`, `place`, `time`, `file`) VALUES (\'2002-12-01\', \'hello\', \'iugvuiuibuigui\', NULL, NULL, NULL, \'_Khushi sharma yoga day cert..pdf\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `post` (`date`, `title`, `description`, `pages`, `place`, `time`, `file`) VALUES (\'2002-12-01\', \'hello\', \'iugvuiuibuigui\', NULL, NULL, NULL, \'_Khushi sharma yoga day cert..pdf\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `post` (`date`, `title`, `description`, `pages`, `place`, `time`, `file`) VALUES (\'2002-12-01\', \'hello\', \'iugvuiuibuigui\', NULL, NULL, NULL, \'_Khushi sharma yoga day cert..pdf\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `post` (`date`, `title`, `description`, `pages`, `place`, `time`, `file`) VALUES (:date:, :title:, :description:, :pages:, :place:, :time:, :file:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Post.php(25): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Post->post()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 22:41:45 --> Undefined variable $imageName
+in APPPATH\Controllers\Post.php on line 23.
+ 1 APPPATH\Controllers\Post.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imageName', 'APPPATH\\Controllers\\Post.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Post->post()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 22:44:39 --> Undefined variable $imageName
+in APPPATH\Controllers\Post.php on line 23.
+ 1 APPPATH\Controllers\Post.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imageName', 'APPPATH\\Controllers\\Post.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Post->post()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-19 22:48:49 --> Column 'pages' cannot be null
+CRITICAL - 2022-07-19 22:48:49 --> Column 'pages' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `post` (`date`, `title`, `description`, `pages`, `place`, `time`, `file`) VALUES (\'2022-07-20\', \'hello\', \'ewfujeouioehgw\', NULL, NULL, NULL, \'_Khushi sharma yoga day cert..pdf\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `post` (`date`, `title`, `description`, `pages`, `place`, `time`, `file`) VALUES (\'2022-07-20\', \'hello\', \'ewfujeouioehgw\', NULL, NULL, NULL, \'_Khushi sharma yoga day cert..pdf\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `post` (`date`, `title`, `description`, `pages`, `place`, `time`, `file`) VALUES (\'2022-07-20\', \'hello\', \'ewfujeouioehgw\', NULL, NULL, NULL, \'_Khushi sharma yoga day cert..pdf\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `post` (`date`, `title`, `description`, `pages`, `place`, `time`, `file`) VALUES (:date:, :title:, :description:, :pages:, :place:, :time:, :file:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Post.php(25): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Post->post()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-19 22:52:16 --> Column 'place' cannot be null
+CRITICAL - 2022-07-19 22:52:16 --> Column 'place' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `post` (`date`, `title`, `description`, `place`, `time`, `file`) VALUES (\'2022-07-04\', \'hello\', \'iygufuyfuyuyg\', NULL, NULL, \'_Khushi sharma yoga day cert..pdf\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `post` (`date`, `title`, `description`, `place`, `time`, `file`) VALUES (\'2022-07-04\', \'hello\', \'iygufuyfuyuyg\', NULL, NULL, \'_Khushi sharma yoga day cert..pdf\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `post` (`date`, `title`, `description`, `place`, `time`, `file`) VALUES (\'2022-07-04\', \'hello\', \'iygufuyfuyuyg\', NULL, NULL, \'_Khushi sharma yoga day cert..pdf\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `post` (`date`, `title`, `description`, `place`, `time`, `file`) VALUES (:date:, :title:, :description:, :place:, :time:, :file:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Post.php(25): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Post->post()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-19 23:04:27 --> Column 'city' cannot be null
+CRITICAL - 2022-07-19 23:04:27 --> Column 'city' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `post` (`date`, `title`, `description`, `city`, `time`, `file`) VALUES (\'2022-07-04\', \'hello\', \'iygufuyfuyuyg\', NULL, NULL, \'_Khushi sharma yoga day cert..pdf\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `post` (`date`, `title`, `description`, `city`, `time`, `file`) VALUES (\'2022-07-04\', \'hello\', \'iygufuyfuyuyg\', NULL, NULL, \'_Khushi sharma yoga day cert..pdf\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `post` (`date`, `title`, `description`, `city`, `time`, `file`) VALUES (\'2022-07-04\', \'hello\', \'iygufuyfuyuyg\', NULL, NULL, \'_Khushi sharma yoga day cert..pdf\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `post` (`date`, `title`, `description`, `city`, `time`, `file`) VALUES (:date:, :title:, :description:, :city:, :time:, :file:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Post.php(25): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Post->post()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-19 23:07:32 --> Column 'time' cannot be null
+CRITICAL - 2022-07-19 23:07:32 --> Column 'time' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `post` (`date`, `title`, `description`, `city`, `time`, `file`) VALUES (\'2022-07-04\', \'hello\', \'iygufuyfuyuyg\', \'gangapur\', NULL, \'_Khushi sharma yoga day cert..pdf\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `post` (`date`, `title`, `description`, `city`, `time`, `file`) VALUES (\'2022-07-04\', \'hello\', \'iygufuyfuyuyg\', \'gangapur\', NULL, \'_Khushi sharma yoga day cert..pdf\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `post` (`date`, `title`, `description`, `city`, `time`, `file`) VALUES (\'2022-07-04\', \'hello\', \'iygufuyfuyuyg\', \'gangapur\', NULL, \'_Khushi sharma yoga day cert..pdf\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `post` (`date`, `title`, `description`, `city`, `time`, `file`) VALUES (:date:, :title:, :description:, :city:, :time:, :file:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Post.php(25): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Post->post()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-19 23:08:11 --> Column 'time' cannot be null
+CRITICAL - 2022-07-19 23:08:11 --> Column 'time' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `post` (`date`, `title`, `description`, `city`, `time`, `file`) VALUES (\'2022-07-20\', \'jhhuyuy\', \'guyguyguyg\', \'gangapur\', NULL, \'1st sem cert..jpeg\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `post` (`date`, `title`, `description`, `city`, `time`, `file`) VALUES (\'2022-07-20\', \'jhhuyuy\', \'guyguyguyg\', \'gangapur\', NULL, \'1st sem cert..jpeg\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `post` (`date`, `title`, `description`, `city`, `time`, `file`) VALUES (\'2022-07-20\', \'jhhuyuy\', \'guyguyguyg\', \'gangapur\', NULL, \'1st sem cert..jpeg\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `post` (`date`, `title`, `description`, `city`, `time`, `file`) VALUES (:date:, :title:, :description:, :city:, :time:, :file:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Post.php(25): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Post->post()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

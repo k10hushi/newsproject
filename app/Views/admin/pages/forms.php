@@ -50,8 +50,8 @@
 <!-- End Sidebar-->
 
 <main id="main" class="main">
-
 <div class="col-12 grid-margin stretch-card">
+
         <div class="card">
         <div class="card-body">
             <h4 class="card-title">Basic form elements</h4>
@@ -60,6 +60,8 @@
             </p>
             <?php if(isset ($validation)) { echo $validation->listErrors();} ?>
             <form class="forms-sample" action="forms" method="post" enctype="multipart/form-data">
+
+
             <div class="form-group">
                 <label for="exampleInputName1">Name</label>
                 <input type="text" name="name" class="form-control"placeholder="Name">
@@ -90,6 +92,8 @@
                 <label for="exampleInputCity1">City</label>
                 <input type="text" name="city" class="form-control"placeholder="Location">
             </div>
+
+           
            <!-- <div class="form-group">
                 <label for="exampleContent1">Content</label>
                 <textarea class="form-control"  name="Content" srows="4"></textarea>
@@ -103,6 +107,18 @@
                 <label for="exampleTextarea1">Textarea</label>
                 <textarea class="form-control"  name="Textarea"rows="4"></textarea>
             </div>
+           <!-- <div class="form-group">
+                <label for="exampleInputCategory">category</label>
+                <input type="text" name="category" class="form-control"placeholder="category">
+            </div>-->
+ <div class="form-group">
+                <label for="exampleInputCategory">category</label>
+                <input type="text" name="category" class="form-control"placeholder="category">
+                
+    
+            </div>
+            
+
             <button type="submit" class="btn btn-primary mr-2">Submit</button>
             <button class="btn btn-light">Cancel</button>
             </form>
